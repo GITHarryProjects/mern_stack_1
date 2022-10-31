@@ -1,0 +1,25 @@
+{
+  "name": "mern_stack_1",
+  "version": "1.0.0",
+  "description": "Mern Stack Learning Test App #1",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "mern-stack-test-app-1"
+  },
+  "author": "Harald Innetzberger",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.7.0"
+  }
+}
